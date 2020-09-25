@@ -151,4 +151,69 @@ section:nth-of-type(4) , section:nth-of-type(5){
     padding: .6%;
 }
 
+section:nth-of-type(6) {
+    background: #fff;
+}
 
+#oben {
+    height: 100vh;
+    background: url(../img/see.png) center / cover no-repeat;
+    z-index: 0;
+    
+}
+
+#unten {
+    height: 110vh;
+    background: url(../img/kid.png) center / cover no-repeat;
+    z-index: 1;
+    margin-top: -56%;
+}
+
+footer {
+    background: #000;    
+    padding-bottom: 2%;
+}
+
+h4 {
+    color: #fff;
+    font-size: 10rem;
+    width: 70%;
+    padding: 20% 0 5% 10%;
+
+}
+
+footer a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer a:first-of-type:hover {
+    box-shadow: 3px 3px #fff;
+}
+
+footer a:first-of-type:not(#roma-link) {
+    color: #fff;
+    font-size: 2rem;
+    border: 1px solid #fff;
+    padding: 1% 2%;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    display: inline-block;
+}
+
+footer p {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+#roma-link {
+    color: #6bc1a3;
+}
+
+#roma-link:hover {
+    border-bottom: 1.5px solid #6bc1a3;
+}
