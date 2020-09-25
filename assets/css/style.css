@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Santio';
+    src: url(../fonts/Santio\ regular.otf) format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Santio';
+    src: url(../fonts/Santio\ Bold.otf) format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Santio';
+    src: url(../fonts/Santio\ Black.otf) format('opentype');
+    font-weight: 900;
+}
+
+/* Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff */
+
+body {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin: 1% 10% 0 0;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;   
+    border-bottom: 3px solid #e7bc0e;
+}
+
+#sun {
+    height: 1.4%;
+    width: 1.4%;
+    padding-right: 1.5%;
+}
